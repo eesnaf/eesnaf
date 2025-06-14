@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>e-Esnaf | Ana Sayfa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 80px auto;
+      background-color: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #2a8c2a;
+    }
+    a {
+      display: block;
+      margin: 12px 0;
+      font-size: 18px;
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>e-Esnaf'a Hoş Geldiniz 👋</h1>
+    <p>Lütfen aşağıdaki bölümlerden birini seçin:</p>
+    <a href="admin.html">🔒 Admin Paneli</a>
+    <a href="esnaf-login.html">🧰 Esnaf Giriş</a>
+    <a href="musteri-login.html">👤 Müşteri Giriş</a>
+  </div>
+</body>
+</html>
